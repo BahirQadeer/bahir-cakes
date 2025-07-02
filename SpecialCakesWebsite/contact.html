@@ -4,35 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Special Cakes for All Occasions</title>
-    <link rel="stylesheet" href="specialcakesstyles.css">
+    <link rel="stylesheet" href="css/specialcakesstyles.css">
 </head>
 <body>
-    <header>
-        <img id="banner" src="images/banner.jpg" alt="Special Cakes Banner" title="Special Cakes Banner" width="1150" height="360">
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="cakes.html">Cakes for Sale</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact Us</a>
-    </nav>
-    <main>
-        <h1>Contact Us</h1>
-        <form action="submit_contact.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required>
-            <label for="message">Question/Feedback:</label>
-            <textarea id="message" name="message" required></textarea>
-            <input type="submit" value="Submit">
-        </form>
-    </main>
-    <footer>
-        <p>© Bahir Ahmed Qadeer</p>
-    </footer>
-    <!-- Bahir Ahmed Qadeer -->
+    <div class="container">
+        <header>
+            <img id="banner" src="Images/lemoncake300.jpg" alt="Special Cakes Banner">
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cakes.html">Cakes for Sale</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <main>
+            <h1>Contact Us</h1>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="message">Question/Feedback:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            <p>© Bahir Ahmed Qadeer</p>
+        </footer>
+        <!-- Bahir Ahmed Qadeer -->
+    </div>
 </body>
 </html>

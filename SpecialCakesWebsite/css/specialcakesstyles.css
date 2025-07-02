@@ -1,0 +1,204 @@
+body {
+    background-color: #f5f5f5;
+    color: #0C243C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    border: 5px solid #0C243C;
+    padding: 5;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #E94D40;
+    margin-top: 3;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #0C243C;
+}
+
+.maintext {
+    margin-left: 10px;
+}
+
+nav {
+    text-align: right;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+nav a:link {
+    color: #0C243C;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    color: #E94D40;
+}
+
+nav a:visited {
+    color: #E94D40;
+}
+
+.cakes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.cakes figure {
+    margin: 0 10px 20px;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    color: #0C243C;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+table, th, td {
+    border: 1px solid #0C243C;
+    border-collapse: collapse;
+}
+
+th {
+    background: #E94D40;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #0C243C;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #0C243C;
+    border-radius: 4px;
+}
+
+input[type="text"][pattern] {
+    width: 100%;
+    max-width: 500px;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #0C243C;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #E94D40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0C243C;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #0C243C;
+    padding: 10px;
+    clear: both;
+}
+
+#banner {
+    display: block;
+    margin: 0 auto;
+}
+
+.cake {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.cake figure {
+    margin: 0 10px 20px;
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    color: #0C243C;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.pricetable {
+    float: right;
+    width: 40%;
+    margin: 20px 20px 20px 0;
+    border-collapse: collapse;
+}
+
+/* Bahir Ahmed Qadeer - S1581104 */
+
+/* @charset "utf-8" */
+/* CSS Document */
+body {
+	font-size: 1em;
+	line-height: 1.3em;
+}
+/* classes */
+.burntred {
+	color: #E94D40;
+}
+.navyblue {
+	color: #0C243C;
+}
+.specialcakesfont {
+	font-family: Arial, sans-serif;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.clearboth {
+    clear: both;
+}

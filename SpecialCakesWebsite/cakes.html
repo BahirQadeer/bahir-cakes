@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cakes for Sale - Special Cakes for All Occasions</title>
+    <link rel="stylesheet" href="css/specialcakesstyles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html"><img src="images/banner.jpg" alt="Special Cakes Banner"></a>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cakes.html">Cakes for Sale</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <main>
+            <h1>Cakes for Sale</h1>
+            <h2>‎ Our Offerings</h2>
+            <div class="cakes">
+            <figure>
+                <img src="images/specialOccasion300.jpg" alt="Speciality Cakes">
+                <figcaption>Speciality Cakes</figcaption>
+                <figcaption>Can be made to match Dietary requirements</figcaption>
+            </figure>
+            <figure>
+                <img src="images/lemonCake300.jpg" alt="Flavored Cakes">
+                <figcaption>Flavored Cakes</figcaption>
+                <figcaption>Contains gluten, dairy, nuts and eggs. Strawberry cakes contain strawberries.</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cheeseCake300.jpg" alt="Cheesecakes">
+                <figcaption>Cheesecakes</figcaption>
+                <figcaption>Contains gluten and dairy</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cupcake300.jpg" alt="Cupcakes">
+                <figcaption>Cupcakes</figcaption>
+                <figcaption>Contains gluten, dairy, nuts and eggs</figcaption>                
+            </figure>
+            <figure>                
+                <img src="images/macaron300.jpg" alt="Macarons">
+                <figcaption>Macarons</figcaption>
+                <figcaption>Contains gluten, dairy, nuts and eggs</figcaption>
+            </figure>
+            <figure>
+                <img src="images/brownie300.jpg" alt="Brownies">
+                <figcaption>Brownies </figcaption>
+                <figcaption>Contains dairy, nuts and eggs</figcaption>
+            </figure>
+            </div>
+            <table class="pricetable">
+                <thead>
+                    <tr>
+                        <th scope="col">Cake Size</th>
+                        <th scope="col">Suitable for</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Small</td>
+                        <td>8-10 people</td>
+                        <td>$50.00</td>
+                    </tr>
+                    <tr>
+                        <td>Medium</td>
+                        <td>10-12 people</td>
+                        <td>$60.00</td>
+                    </tr>
+                    <tr>
+                        <td>Large</td>
+                        <td>16-20 people</td>
+                        <td>$150.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>‎ How to Order</h2>
+            <form action="submit_order.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="cake-type">Type of Cake:</label>
+                <select id="cake-type" name="cake-type" required>
+                    <option value="">Select a cake type</option>
+                    <option value="Speciality Cakes">Speciality Cakes</option>
+                    <option value="Flavored Cakes">Flavored Cakes</option>
+                    <option value="Cheesecakes">Cheesecakes</option>
+                    <option value="Brownies">Brownies</option>
+                    <option value="Cupcakes">Cupcakes</option>
+                    <option value="Macarons">Macarons</option>
+                </select>
+                <label for="cake-size">Cake Size:</label>
+                <select id="cake-size" name="cake-size" required>
+                    <option value="">Select a size</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+                <label for="date-required">Date Required (dd-mm-yyyy):</label>
+                <input type="text" id="date-required" name="date-required" pattern="\d{2}-\d{2}-\d{4}" required>
+                <input type="submit" value="Submit Order">
+            </form>
+        </main>
+        <footer>
+            <p>© Bahir Ahmed Qadeer</p>
+        </footer>
+        <!-- Bahir Ahmed Qadeer -->
+    </div>
+</body>
+</html>
